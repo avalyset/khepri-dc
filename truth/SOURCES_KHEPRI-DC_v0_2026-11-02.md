@@ -227,3 +227,14 @@ sha256 også i truth/SHA256_ELHUB_KHEPRI-DC_v1_2026-11-02.txt (+ .ots).
   Lenke til https://creativecommons.org/licenses/by/4.0/.
 - Følge: lisensen er åpen; de fire Elhub-uttakene (sha256 i truth/SHA256_ELHUB_…) legges i pakken under data/elhub/
   med kildeangivelse «Kilde: Elhub».
+
+---
+
+# A-DC4 (2026-11-02): forordning (EU) 543/2013, vedtatt tekst
+- Lastet ned https://www.legislation.gov.uk/eur/2013/543/pdfs/eur_20130543_adopted_en.pdf til
+  $V/kilder/eu543/eur_20130543_adopted_en.pdf (12 sider), sha256
+  1362ff26832e64ff94b3f8f973412961e0b8da7defb751076d7646302db1bacc. Erstatter de tomme filene eu543.html/eu543.txt
+  (EUR-Lex svarte HTTP 202 uten innhold i A-DC1; sitatet ble da lest i nettleserpanelet).
+- Art. 2 nr. 27 (s. 3), ordrett og identisk med A-DC1-sitatet: «‘total load’, including losses without power used
+  for energy storage, means a load equal to generation and any imports deducting any exports and power used for
+  energy storage».

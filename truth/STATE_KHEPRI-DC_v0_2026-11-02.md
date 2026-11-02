@@ -102,3 +102,12 @@ Se inventar/SHA256_RAADATA_KHEPRI-DC_v0_2026-11-02.txt (føres inn ved avslutnin
   droppet. Tar-header-manifest, reassemble-skript og git filter-repo droppet etter instruks; erstattet av
   prereg-bevis/PREREG-MANIFEST_…txt (46 medlemmer) og $V/repo-public med én commit.
 - tests/test_data.py: datatester hopper over A75/A65 med melding når filene mangler.
+
+---
+# A-DC4 (2026-11-02): Brevet-tekst og publisering
+- Brevet-filene delt ut og kontrollert (sha256 2b74011a…/d77df795…/c89e1aec… = forventet); lagret i brevet/mottatt/.
+  Selve vedlegget (141e0381…) fantes ikke som fil; kontrollen er gjort på de tre utdelte filene.
+- Tilbakeført: manus (via MAL; generert md = Brevets manusdel), README, Zenodo-beskrivelse, begge komitéutkast.
+  Rettelser a–e utført. kilder/eu543: vedtatt tekst (legislation.gov.uk) sha256 1362ff26…bacc.
+- Zenodo: utkast 23887356 opprettet via API i Eiriks innloggede Chrome-økt; DOI reservert 10.5281/zenodo.23887356
+  og satt inn i manus, README, CITATION.cff og begge komitéutkast.

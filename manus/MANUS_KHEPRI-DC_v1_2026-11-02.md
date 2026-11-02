@@ -9,8 +9,8 @@ lang: nb
 **Sammendrag.** Vi bruker ENTSO-E-data for produksjon (A75) og last (A65) per time i de fem norske budområdene for
 2023, 2024 og 2025. På de observerte timene legger vi flat last tilsvarende datasenterkapasiteten som Statnett per
 2. november 2026 har reservert eller satt i kø. Vi rapporterer hvor ofte, hvor mye og hvor dypt produksjonen ligger
-under lasten. Analysen er preregistrert (signert git-tagg `prereg-v1`), deterministisk og ikke en prognose. Uten
-påslag lå produksjonen under lasten i 76–99 % av timene i NO1 og 65–88 % i NO3, mens NO2, NO4 og NO5 hadde
+under lasten. Analysen er preregistrert (signert git-tagg `prereg-v1`) og deterministisk, og den er ikke en prognose.
+Uten påslag lå produksjonen under lasten i 76–99 % av timene i NO1 og i 65–88 % i NO3. NO2, NO4 og NO5 hadde
 overskudd på årsbasis alle tre år. Med en tredjedel av reservert og køsatt datasenterkapasitet (S3) stiger andelen
 timer med produksjon under last i NO4 fra 18,3 / 36,4 / 7,6 % til 34,5 / 60,0 / 30,1 % (2023 / 2024 / 2025).
 Netto import er ikke mangel eller rasjonering; tolkningsreglene i avsnitt 6 gjelder alle tall.
@@ -21,18 +21,18 @@ NVEs scenarioanalyse for 2026 legger 3,6 GW reservert datasenterkapasitet til gr
 datasenterscenario og skriver at «I denne analysen har vi ikke gjort egne analyser av hvordan endrede
 utviklingsbaner for forbruk og produksjon mot 2035 vil kunne påvirke utviklingen i effektbalanse», og at «Særlig
 gjelder dette datasentre, der vi har antatt en jevn forbruksprofil over året» (NVE Rapport 37/2026, s. 17 og 27).
-NVE oppgir samtidig om lag 4 GW reservert og om lag 9 GW i kø for datasentre (s. 27). Analysen er en modell av
+NVE oppgir samtidig om lag 4 GW reservert og om lag 9 GW i kø for datasentre (s. 27). NVEs analyse modellerer
 framtiden over 30 værår, med kraftbalanse og priser også per budområde (s. 16–20).
 
 De Facto-rapport 4:2025 (Lekve, 7. august 2025, utført på oppdrag for Rødt) viser kraftbalanse per prisområde for
-2021–2025 fra Elhub-data, med månedsoppløsning; rapporten viser figurer, og vi fant ikke data eller kode publisert
+2021–2025 fra Elhub-data, med månedsoppløsning. Rapporten viser figurer, og vi fant ikke data eller kode publisert
 sammen med den. Riksrevisjonen fant at «Det
-finnes ikke aggregert informasjon om den faktiske utnyttelsen av nettet» (Dokument 3:7 (2024–2025), s. 52), og at
-det per september 2024 var reservert i overkant av 8 400 MW til forbrukskunder (s. 10).
+finnes ikke aggregert informasjon om den faktiske utnyttelsen av nettet» (Dokument 3:7 (2024–2025), rapporten s. 52), og at
+det per september 2024 var reservert i overkant av 8 400 MW til forbrukskunder (s. 10–11).
 
 Vi fant ikke noe åpent, etterprøvbart arbeid som i ettertid, time for time og per budområde, legger Statnetts
-reservasjons- og køtall på observerte timer (kildegjennomgang i `truth/SOURCES`). Denne notaten gjør det, og stopper
-der: vi modellerer ikke priser, nett inne i sonene, respons i produksjon eller import, eller effektbalanse.
+reservasjons- og køtall på observerte timer (kildegjennomgang i `truth/SOURCES`). Dette notatet gjør det og stopper
+der. Vi modellerer ikke priser, nett inne i sonene, respons i produksjon eller import, eller effektbalanse.
 
 # 2 Data
 
@@ -48,7 +48,7 @@ der: vi modellerer ikke priser, nett inne i sonene, respons i produksjon eller i
 - **Eksisterende datasenterlast:** Elhub `consumption_datacenter_per_mba_hour` (CC BY 4.0), per prisområde.
   E_y = gjennomsnittlig MW i år y; E_ref = E_2025.
 - **Datatilgang:** A75- og A65-seriene distribueres ikke, fordi de ikke står på ENTSO-Es liste over åpne data
-  (18.10.2023); med egen ENTSO-E-token bygges de byte-likt med `rebuild_data_KHEPRI-DC_v1.py`.
+  (18.10.2023). Med egen ENTSO-E-token kan de bygges byte-likt med `rebuild_data_KHEPRI-DC_v1.py`.
 
 # 3 Metode
 
@@ -72,7 +72,7 @@ Tabell 1 viser kapasitet og påslag (MW, 2025; for 2023 og 2024 kommer løftet E
 
 # 4 Resultater
 
-**Observert (S0).** Tabell 2: andel timer, sum og laveste verdi av NP uten påslag (2023 / 2024 / 2025).
+**Observert (S0).** Tabell 2 viser andel timer, sum og laveste verdi av NP uten påslag (2023 / 2024 / 2025).
 
 | Sone | (i) andel timer NP < 0 (%) 2023 / 2024 / 2025 | (ii) des–feb (%) | (iii) sum NP (TWh) | (iv) laveste NP (MW) |
 |---|---|---|---|---|
@@ -107,8 +107,8 @@ Summen av de fem sonenes (iii) er 17,9 / 18,6 / 22,9 TWh observert, −12,3 / �
 −69,2 / −68,1 / −62,5 TWh i S4. Disse summene er aritmetikk på de preregistrerte sonetallene, ikke egne
 preregistrerte utfall.
 
-**Kurve.** Tabell 5 viser minste f der årssummen blir ≤ 0 og der over halvparten av vintertimene har NP − L < 0.
-Det andre punktet er et rapporteringspunkt, ikke en terskel for noe annet.
+**Kurve.** Tabell 5 viser minste f der årssummen blir ≤ 0, og minste f der over halvparten av vintertimene har
+NP − L < 0. Det andre punktet er bare et rapporteringspunkt, ikke en terskel for noe annet.
 
 | Sone | minste f der (iii) ≤ 0: 2023 / 2024 / 2025 | minste f der (ii) > 50 %: 2023 / 2024 / 2025 |
 |---|---|---|
@@ -121,8 +121,8 @@ Det andre punktet er et rapporteringspunkt, ikke en terskel for noe annet.
 ![Kurve over f per sone: (iii) årlig sum NP − L og (ii) andel vintertimer med NP − L < 0, 2023–2025.](fig_kurver.png){width=100%}
 
 **Kontroll.** Tabell 6. NP fra A75 − A65 følger netto fysisk flyt tett (r ≥ 0,985), men avviket er over den
-preregistrerte grensen i NO2, NO3 og NO4 alle tre år (6–14 % av middel |NP|). Det er ført som avvik og ikke justert.
-Årsaken er ikke undersøkt; mulige bidrag er pumpeforbruk, ufullstendig produksjonsrapportering og holdverdier i A11.
+preregistrerte grensen i NO2, NO3 og NO4 alle tre år (6–14 % av middel |NP|). Avviket er ført som avvik og ikke
+justert. Årsaken er undersøkt utforskende i avsnitt 5.
 
 | Sone | MAE / middel abs NP: 2023 / 2024 / 2025 | r: 2023 / 2024 / 2025 | Innenfor 0,05 |
 |---|---|---|---|
@@ -134,15 +134,15 @@ preregistrerte grensen i NO2, NO3 og NO4 alle tre år (6–14 % av middel |NP|).
 
 # 5 Begrensninger
 
-Tolkningsreglene under er preregistrert og gjelder alle tall. I tillegg: Elhubs datasenterutvalg er målepunkt med
-næringskode 63.100 og kan både over- og underdekke datasentre; Statnetts tall er en Power BI-visning uten historikk;
-og kontrollen viser at A75 − A65 avviker fra netto fysisk flyt i tre av fem soner.
+Tolkningsreglene under er preregistrert og gjelder alle tall. I tillegg kommer tre forhold. Elhubs datasenterutvalg
+er målepunkt med næringskodene 63.100 og 63.110 (SN2025) og kan både over- og underdekke datasentre. Statnetts tall er en Power BI-visning
+uten historikk. Kontrollen viser at A75 − A65 avviker fra netto fysisk flyt i tre av fem soner.
 
 *Utforskende, ikke preregistrert (truth/DIAGNOSE_DEV1).* Avviket har en retning. I NO2 og NO5 ligger A75 − A65 over
-netto fysisk flyt med 0,9–1,8 og 0,2–0,4 TWh per år, forenlig med pumpeforbruk som A65 etter definisjonen utelater.
-I NO1, NO3 og NO4 ligger det under med 0,1–0,5 TWh per år, forenlig med at A75 ligger under Elhubs produksjonstall.
-Hovedmålet viser dermed trolig for få timer under null i NO2 og NO5 og for mange i NO1, NO3 og NO4. Tabell 7 viser
-hovedtallene regnet på nytt med NP fra A11 (hovedmål / A11).
+netto fysisk flyt med 0,9–1,8 og 0,2–0,4 TWh per år. Det er forenlig med pumpeforbruk, som A65 utelater etter
+definisjonen. I NO1, NO3 og NO4 ligger det under med 0,1–0,5 TWh per år, forenlig med at A75 ligger under Elhubs
+produksjonstall. Hovedmålet viser dermed trolig for få timer under null i NO2 og NO5 og for mange i NO1, NO3 og NO4.
+Tabell 7 viser hovedtallene regnet på nytt med NP fra A11 (hovedmål / A11).
 
 | Sone | År | (i) S0 (%) | (i) S3 (%) | (iii) S3 (TWh) | minste f, (iii) ≤ 0 |
 |---|---|---|---|---|---|
@@ -175,12 +175,12 @@ hovedtallene regnet på nytt med NP fra A11 (hovedmål / A11).
 
 # 7 Konklusjon
 
-I de observerte timene 2023–2025 hadde NO1 og NO3 produksjon under last i de fleste timer, og NO2, NO4 og NO5 hadde
-overskudd på årsbasis. Når Statnetts reserverte og køsatte datasenterkapasitet legges på som flat last, endres
-fortegnet på årssummen i NO4 ved f = 0,43 / 0,22 / 0,44 og i NO2 ved f = 0,50 / 0,63 / 0,58; i NO5 skjer det ikke for
+I de observerte timene 2023–2025 hadde NO1 og NO3 produksjon under last i de fleste timene, mens NO2, NO4 og NO5
+hadde overskudd på årsbasis. Når Statnetts reserverte og køsatte datasenterkapasitet legges på som flat last, skifter
+årssummen fortegn i NO4 ved f = 0,43 / 0,22 / 0,44 og i NO2 ved f = 0,50 / 0,63 / 0,58. I NO5 skjer det ikke for
 noen f. Tallene beskriver observerte timer med et påslag. De sier ikke hva som vil skje, og de er ikke en anbefaling
 for eller mot datasentre.
 
-**Data og kode:** [ZENODO-DOI]. Kode Apache-2.0, data CC BY 4.0. Kilder: ENTSO-E Transparency Platform; Elhub
+**Data og kode:** https://doi.org/10.5281/zenodo.23887356. Kode Apache-2.0, data CC BY 4.0. Kilder: ENTSO-E Transparency Platform; Elhub
 (CC BY 4.0); Statnett. **KI-bruk:** analysen er utført med Claude Code som verktøy under forfatterens styring
 (AIUSE.md).

@@ -1,0 +1,15 @@
+A75_NO_1_2023.xml {'in': 6} produksjon: B01,B04,B11,B12,B17,B19 | forbruk: -
+A75_NO_1_2024.xml {'in': 7} produksjon: B01,B04,B11,B12,B16,B17,B19 | forbruk: -
+A75_NO_1_2025.xml {'in': 7} produksjon: B01,B04,B11,B12,B16,B17,B19 | forbruk: -
+A75_NO_2_2023.xml {'in': 6} produksjon: B04,B10,B11,B12,B17,B19 | forbruk: -
+A75_NO_2_2024.xml {'in': 6} produksjon: B04,B10,B11,B12,B17,B19 | forbruk: -
+A75_NO_2_2025.xml {'out': 2, 'in': 7} produksjon: B04,B10,B11,B12,B17,B18,B19 | forbruk: B10,B18
+A75_NO_3_2023.xml {'in': 8} produksjon: B01,B10,B11,B12,B15,B17,B19,B20 | forbruk: -
+A75_NO_3_2024.xml {'in': 8} produksjon: B01,B10,B11,B12,B15,B17,B19,B20 | forbruk: -
+A75_NO_3_2025.xml {'in': 9, 'out': 1} produksjon: B01,B10,B11,B12,B15,B16,B17,B19,B20 | forbruk: B10
+A75_NO_4_2023.xml {'in': 5} produksjon: B04,B11,B12,B15,B19 | forbruk: -
+A75_NO_4_2024.xml {'in': 5} produksjon: B04,B11,B12,B15,B19 | forbruk: -
+A75_NO_4_2025.xml {'in': 5} produksjon: B04,B11,B12,B15,B19 | forbruk: -
+A75_NO_5_2023.xml {'in': 5} produksjon: B04,B10,B11,B12,B17 | forbruk: -
+A75_NO_5_2024.xml {'in': 5} produksjon: B04,B10,B11,B12,B17 | forbruk: -
+A75_NO_5_2025.xml {'out': 1, 'in': 5} produksjon: B04,B10,B11,B12,B17 | forbruk: B10

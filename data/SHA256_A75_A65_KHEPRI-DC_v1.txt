@@ -1,0 +1,5 @@
+# sha256 (byte) og innholdshash (sortert sone+time_utc, faste kolonner, CSV %.17g, UTC-ISO) for filene som ikke distribueres; identisk med prereg-v1 (e160f44)
+591aa72eb198b1d3c80747ce0fc50bd4b4c419c0ef98eb0acf2487864245f85a  byte  produksjon_A75.parquet
+b724bf5de502bd146936190ed0c1842cb564dd47ae8a1797b572b4b98c4cd0b8  innhold  produksjon_A75.parquet
+bf8810a3881f8f9e5fa6695ce08ca5e9d1be6f9264c1a0835a0d9dbe4d8878c4  byte  last_A65.parquet
+d2a69169b73922e655677c687886005cff4de6278ca9e4448dc1b55d0cd4d35f  innhold  last_A65.parquet

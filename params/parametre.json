@@ -1,0 +1,50 @@
+{
+ "E_MW": {
+  "NO1": {
+   "2023": 15.734545,
+   "2024": 40.604627,
+   "2025": 96.966518
+  },
+  "NO2": {
+   "2023": 11.408991,
+   "2024": 17.977821,
+   "2025": 26.68425
+  },
+  "NO3": {
+   "2023": 60.471796,
+   "2024": 93.707314,
+   "2025": 153.82739
+  },
+  "NO4": {
+   "2023": 65.126774,
+   "2024": 70.993339,
+   "2025": 81.096372
+  },
+  "NO5": {
+   "2023": 2.703329,
+   "2024": 0.891418,
+   "2025": 0.05676
+  }
+ },
+ "E_ref_aar": 2025,
+ "Q_MW": {
+  "NO1": 2220.0,
+  "NO2": 3092.0,
+  "NO3": 1646.0,
+  "NO4": 2258.0,
+  "NO5": 894.0
+ },
+ "R_MW": {
+  "NO1": 1398.0,
+  "NO2": 1950.0,
+  "NO3": 96.0,
+  "NO4": 477.0,
+  "NO5": 270.0
+ },
+ "brukstid": 0.7,
+ "kilder": {
+  "E": "Elhub consumption_datacenter_per_mba_hour (CC BY 4.0), lastet ned 2026-11-02, sha256 f03d3098c728c64a846a70c610de52afb6d06ee1cfbee60cc0e8cbc58ec1d79f",
+  "R_Q": "Statnett, Statistikk om tilknytningssaker (Power BI), forbruk, næringstype Datasenter, avlest 2026-11-02; arkiv/STATNETT_ARKIV_KHEPRI-DC_v1_2026-11-02.md",
+  "brukstid": "NVE, Metode for framskriving av strømforbruk i datasentre, 11.08.2026, s. 4"
+ }
+}

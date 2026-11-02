@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Hvis du bruker KHEPRI-DC, siter det som under."
+title: "KHEPRI-DC: timevis nettoposisjon per norsk budområde 2023–2025 med datasenterkøen lagt på"
+abstract: >-
+  Preregistrert, deskriptiv og deterministisk analyse i ettertid. Timevis
+  nettoposisjon (ENTSO-E A75 minus A65) for NO1–NO5 i 2023, 2024 og 2025,
+  med flat datasenterlast lagt på etter Statnetts reservasjons- og køtall
+  (avlest 2. november 2026) og Elhubs datasenterforbruk per prisområde.
+  Ikke en prognose. Kontroll mot fysisk flyt (A11) er rapportert, også der
+  den er utenfor den preregistrerte grensen. A75- og A65-seriene
+  distribueres ikke (ENTSO-E-vilkår); de bygges med egen token.
+type: software
+authors:
+  - family-names: "Botten Nicolaysen"
+    given-names: "Eirik"
+    orcid: "https://orcid.org/0009-0001-9188-6788"
+    affiliation: "EcoDeco AS"
+license: [Apache-2.0, CC-BY-4.0]
+version: "1.0.0"
+date-released: "2026-11-02"
+doi: "[ZENODO-DOI]"
+keywords: [datasentre, budområde, nettoposisjon, ENTSO-E, Statnett, preregistrering]

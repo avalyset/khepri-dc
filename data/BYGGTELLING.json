@@ -1,0 +1,773 @@
+{
+ "A11": {
+  "DELU->NO2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "DELU->NO2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "DELU->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "DK1->NO2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "DK1->NO2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "DK1->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "FI->NO4_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "FI->NO4_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "FI->NO4_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "GB->NO2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "GB->NO2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "GB->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NL->NO2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NL->NO2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NL->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO2_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO2_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO1->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO3_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO3_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO1->NO3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO5_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->NO5_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO1->NO5_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->SE3_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1->SE3_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO1->SE3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->DELU_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->DELU_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->DELU_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->DK1_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->DK1_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->DK1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->GB_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->GB_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->GB_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NL_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NL_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->NL_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NO1_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NO1_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->NO1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NO5_2023": {
+   "filer": 6,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2->NO5_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2->NO5_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO1_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO1_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO3->NO1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO4_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO4_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO3->NO4_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO5_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->NO5_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO3->NO5_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->SE2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3->SE2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO3->SE2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->FI_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->FI_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO4->FI_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->NO3_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->NO3_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO4->NO3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->SE1_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->SE1_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO4->SE1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->SE2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4->SE2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO4->SE2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO1_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO1_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO5->NO1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO2_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO2_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO5->NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO3_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5->NO3_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO5->NO3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE1->NO4_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE1->NO4_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "SE1->NO4_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE2->NO3_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE2->NO3_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "SE2->NO3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE2->NO4_2023": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE2->NO4_2024": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "SE2->NO4_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE3->NO1_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "SE3->NO1_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "SE3->NO1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  }
+ },
+ "A65": {
+  "NO1_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO1_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO1_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO2_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO2_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO3_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO3_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO4_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO4_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5_2023": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  },
+  "NO5_2024": {
+   "filer": 12,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784
+  },
+  "NO5_2025": {
+   "filer": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760
+  }
+ },
+ "A75": {
+  "NO1_2023": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 6
+  },
+  "NO1_2024": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784,
+   "timer_ikke_alle_typer": 3046,
+   "typer": 7
+  },
+  "NO1_2025": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 7
+  },
+  "NO2_2023": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 6
+  },
+  "NO2_2024": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784,
+   "timer_ikke_alle_typer": 0,
+   "typer": 6
+  },
+  "NO2_2025": {
+   "filer": 1,
+   "forbruksserier_utelatt": 2,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 6577,
+   "typer": 7
+  },
+  "NO3_2023": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 3142,
+   "typer": 8
+  },
+  "NO3_2024": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784,
+   "timer_ikke_alle_typer": 0,
+   "typer": 8
+  },
+  "NO3_2025": {
+   "filer": 1,
+   "forbruksserier_utelatt": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 6880,
+   "typer": 9
+  },
+  "NO4_2023": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 5
+  },
+  "NO4_2024": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784,
+   "timer_ikke_alle_typer": 0,
+   "typer": 5
+  },
+  "NO4_2025": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 5
+  },
+  "NO5_2023": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 0,
+   "typer": 5
+  },
+  "NO5_2024": {
+   "filer": 1,
+   "forbruksserier_utelatt": 0,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8784,
+   "timer_ikke_alle_typer": 0,
+   "typer": 5
+  },
+  "NO5_2025": {
+   "filer": 1,
+   "forbruksserier_utelatt": 1,
+   "konflikter": 0,
+   "manglende_timer": 0,
+   "timer": 8760,
+   "timer_ikke_alle_typer": 479,
+   "typer": 5
+  }
+ }
+}

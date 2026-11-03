@@ -24,6 +24,7 @@ build/lag_manustabeller.py og listes ikke enkeltvis.
 | Kontrollgrense | 0,05 | PREREG § 6 |
 | R NO3 / E_ref/0,70 | 96 MW / 219,8 MW | params/parametre.json (96; 153,83 / 0,70) |
 | Brukstid | 0,70 | NVE metodenotat 11.08.2026, s. 4 |
+| Brukstid i påslaget («70 prosent» i TU-innlegget) | 0,70 | manus § 3 (L = (E_ref − E_y) + 0,70 × …; «0,70 er NVEs brukstid»); params/parametre.json `brukstid` = 0.7 |
 | Gyldige timer | 8 760 / 8 784 / 8 760, 120 serie-år | data/BYGGTELLING.json; results/RESULTATER (Timer-kolonnen) |
 | Grenser | 15 grenser, 30 retninger | build/build_series.py BORDERS; A-DC0 inventar (lik entsoe-py NEIGHBOURS) |
 | A75-forbruksserier utelatt | B10 i NO2, NO3, NO5; B18 i NO2; bare 2025 | data/BYGGTELLING.json (forbruksserier_utelatt) + metadata-sjekk i STATE |
